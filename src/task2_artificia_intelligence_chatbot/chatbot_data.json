@@ -1,0 +1,153 @@
+[
+  {
+    "intent": "help",
+    "patterns": ["i need help", "can you help me", "help me", "assist me"],
+    "responses": ["Of course! How can I assist you today?", "Sure! Let me know what you need help with."]
+  },
+  {
+    "intent": "thanks",
+    "patterns": ["thanks", "thank you", "thx", "thank you so much"],
+    "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+  },
+  {
+    "intent": "joke",
+    "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+    "responses": ["Why did the developer go broke? Because he used up all his cache!", "Why don’t scientists trust atoms? Because they make up everything!"]
+  },
+  {
+    "intent": "time",
+    "patterns": ["what time is it", "current time", "can you tell me the time"],
+    "responses": ["Let me check the time for you...", "It's time to code! 😉"]
+  },
+  {
+    "intent": "date",
+    "patterns": ["what day is it", "today's date", "what is the date today"],
+    "responses": ["Let me check today’s date for you...", "It's a great day to learn something new!"]
+  },
+  {
+    "intent": "mood",
+    "patterns": ["how are you", "how's it going", "how do you feel"],
+    "responses": ["I'm just a bot, but I'm doing great!", "Always happy to help!"]
+  },
+  {
+    "intent": "weather",
+    "patterns": ["what's the weather", "is it raining", "weather update"],
+    "responses": ["I can’t check the weather right now, but you can try a weather website!", "You might want to check your weather app for that."]
+  },
+  {
+    "intent": "creator",
+    "patterns": ["who made you", "who created you", "your creator"],
+    "responses": ["I was created by amazing developers to help you learn Java!", "Built with love and code by my creators."]
+  },
+  {
+    "intent": "java_help",
+    "patterns": ["help with java", "java problem", "java syntax", "how to write java program"],
+    "responses": ["Sure! Tell me your Java doubt.", "I'm here to help with Java. What’s your question?"]
+  },
+  {
+    "intent": "python_help",
+    "patterns": ["help with python", "python problem", "python syntax"],
+    "responses": ["Python is great! What do you want help with?", "Shoot your Python question!"]
+  },
+  {
+    "intent": "c_help",
+    "patterns": ["help with c", "c programming issue", "c syntax"],
+    "responses": ["C is powerful! What’s your doubt?", "Let me know what C issue you are facing."]
+  },
+  {
+    "intent": "motivation",
+    "patterns": ["motivate me", "i need motivation", "inspire me"],
+    "responses": ["Keep pushing, success is near!", "Your hard work today builds your future!"]
+  },
+  {
+    "intent": "fun_fact",
+    "patterns": ["tell me a fact", "fun fact", "interesting fact"],
+    "responses": ["Did you know? Java was originally called Oak.", "Here's a fact: The first computer bug was an actual moth!"]
+  },
+  {
+    "intent": "language_support",
+    "patterns": ["which languages you support", "what languages do you know"],
+    "responses": ["I support Java, Python, C, C++, and more!", "You can ask me questions related to Java, C, Python, etc."]
+  },
+  {
+    "intent": "repeat",
+    "patterns": ["say that again", "can you repeat", "repeat please"],
+    "responses": ["Sure! Here it is again...", "Let me repeat that for you."]
+  },
+  {
+    "intent": "happy",
+    "patterns": ["i am happy", "feeling great", "awesome day"],
+    "responses": ["That's great to hear!", "Glad you're having a good day!"]
+  },
+  {
+    "intent": "sad",
+    "patterns": ["i am sad", "feeling down", "bad day"],
+    "responses": ["I’m here for you. Things will get better!", "Sorry to hear that. Want to talk about it?"]
+  },
+  {
+    "intent": "bored",
+    "patterns": ["i am bored", "nothing to do", "bored now"],
+    "responses": ["Want to solve a coding problem?", "Let’s do something fun. Maybe a programming challenge?"]
+  },
+  {
+    "intent": "age",
+    "patterns": ["how old are you", "your age", "when were you created"],
+    "responses": ["I don't age, I just update!", "I’m forever young, thanks to my developers!"]
+  },
+  {
+    "intent": "location",
+    "patterns": ["where are you", "your location", "where do you live"],
+    "responses": ["I live in the cloud... literally!", "I'm everywhere and nowhere. That's how bots live!"]
+  },
+  {
+    "intent": "quiz",
+    "patterns": ["start quiz", "quiz please", "give me a quiz"],
+    "responses": ["Starting a quiz... Ready?", "Here's a quiz to test your knowledge!"]
+  },
+  {
+    "intent": "project_idea",
+    "patterns": ["give me a project", "project idea", "mini project"],
+    "responses": ["How about a Student Record Management System in Java?", "Try building a To-Do app with GUI!"]
+  },
+  {
+    "intent": "explain_oops",
+    "patterns": ["explain oops", "what is oops", "oops concepts"],
+    "responses": ["OOPs includes concepts like inheritance, encapsulation, abstraction, and polymorphism.", "OOP helps you organize code using classes and objects."]
+  },
+  {
+    "intent": "explain_inheritance",
+    "patterns": ["what is inheritance", "explain inheritance"],
+    "responses": ["Inheritance allows one class to inherit features from another.", "It supports code reuse in OOP."]
+  },
+  {
+    "intent": "array_help",
+    "patterns": ["help with array", "array problem", "java array"],
+    "responses": ["Tell me your array issue!", "Arrays are fun. What’s your question?"]
+  },
+  {
+    "intent": "loop_help",
+    "patterns": ["loop in java", "help with loop", "for loop example"],
+    "responses": ["Do you want a for loop, while loop or do-while loop?", "Sure! I can explain loops. Tell me more."]
+  },
+  {
+    "intent": "exit_test",
+    "patterns": ["exit test", "end test", "submit test"],
+    "responses": ["Submitting your test...", "Your test is ending now."]
+  },
+  {
+    "intent": "start_test",
+    "patterns": ["start test", "begin test", "test please"],
+    "responses": ["Starting your test now...", "Let’s begin! Best of luck."]
+  },
+  {
+    "intent": "code_error",
+    "patterns": ["i got error", "code is not working", "what is this error"],
+    "responses": ["Send me the error message!", "Let me help debug your code."]
+  },
+  {
+    "intent": "hello_bot",
+    "patterns": ["hello bot", "hi bot", "hey prepbot"],
+    "responses": ["Hello coder!", "Hi there, ready to code?"]
+  }
+]
+
